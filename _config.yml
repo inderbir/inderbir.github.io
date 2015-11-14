@@ -1,24 +1,22 @@
-# Dependencies
-markdown:         redcarpet
-pygments:         true
-
 # Permalinks
-permalink:        pretty
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
 
 # Setup
-title:            IndyVal
-tagline:          'Indys Valuations'
-description:      'Welcome to my blog'
-url:              http://www.indyval.com
+title:               IndyVal
+tagline:             'Indys Valuations'
+description:         'Welcome to my blog'
+url:                 http://www.indyval.com
+baseurl:             ''
+paginate:            5
 
+# About/contact
 author:
-  name:           'Indy'
-  url:            http://www.indyval.com
-
-paginate:         5
+  name:              Indy Bal
+  url:               https://twitter.com/ 
+  email:             inderbirbal@gmail.com
 
 # Custom vars
-version:          2.0.0
-
-github:
-  repo:           https://github.com/inderbir/inderbir.github.io
+version:             1.0.0
