@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            IndyVal.com
+title:            IndyVal
 tagline:          'Indy's Valuations'
 description:      'Welcome to my blog'
 url:              http://www.indyval.com
@@ -18,7 +18,7 @@ author:
 paginate:         5
 
 # Custom vars
-version:          0.1
+version:          2.0.0
 
 github:
   repo:           https://github.com/inderbir/inderbir.github.io
